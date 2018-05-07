@@ -17,7 +17,7 @@ The least information neeeded to autoconfigure email clients is the mail service
     // pop settings
     $popServer = 'pop' . $domain; // pop.example.com
     $popPort = '110';
-    $smtpSSL = 'off';
+    $popSSL = 'off';
     
     // imap settings
     $imapServer = 'imap' . $domain; // imap.example.com
