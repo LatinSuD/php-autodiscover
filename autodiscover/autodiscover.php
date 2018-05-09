@@ -67,7 +67,7 @@ header("Content-Type: application/xml");
 				<SSL><?=smtpSSL?></SSL>
 				<AuthRequired>on</AuthRequired>
 				<UsePOPAuth>on</UsePOPAuth>
-				<SMTPLast>on</SMTPLast>
+				<SMTPLast>off</SMTPLast>
 			</Protocol>
 		</Account>
 	</Response>
